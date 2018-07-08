@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  team: one
+  player: one
+  order: 1
+  captain: false
+
+two:
+  team: two
+  player: two
+  order: 1
+  captain: false

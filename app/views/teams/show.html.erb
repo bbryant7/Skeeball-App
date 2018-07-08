@@ -1,0 +1,8 @@
+<h1> <%= @team.name %> </h1>
+<ul>
+    <% @team.players.each do |player| %>
+      <li> <%= link_to(player.nickname, player_path(player.id)) %> </li>
+    <% end %>
+</ul>
+
+<div><%= link_to("Add Team Member", new_player_path(team_id: @team.id), class:"button") %> </div>

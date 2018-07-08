@@ -1,0 +1,9 @@
+<h1> Create New Team </h1>
+
+<%= form_for team do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :active %>
+  <%= f.check_box :active %>
+  <%= f.submit "Create New Team" %>
+<% end %>
